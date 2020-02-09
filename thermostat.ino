@@ -54,16 +54,12 @@ void functieUnu()
   lcd.print("Temp zi: ");
   lcd.setCursor(5, 1);
   lcd.print(tempHeat);
-  //  if (!digitalRead(19)) {
-  //    detachInterrupt(digitalPinToInterrupt(20));
-  //  }
+  
 }
 
 void functieDoi()
 {
-  //  if (!digitalRead(19)) {
-  //    detachInterrupt(digitalPinToInterrupt(21));
-  //  }
+  
   lcd.setCursor(5, 0);
   lcd.print("Temp cool: ");
   lcd.setCursor(5, 1);
